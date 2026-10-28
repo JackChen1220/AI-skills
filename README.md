@@ -1,11 +1,10 @@
 # AI Skills
 
-三套用于视觉内容制作的实用 AI Skill：图文封面、FAQ 图标、英语场景闪卡。每套技能放在独立目录，附使用说明、参考素材和示例图片，可以按需单独使用。
+两套用于视觉内容制作的实用 AI Skill：图文封面、英语场景闪卡。每套技能放在独立目录，附使用说明、参考素材和示例图片，可以按需单独使用。
 
 | Skill | 用途 | 入口 |
 | --- | --- | --- |
 | 猴子 AI 笔记风格图文 | 暖白网格、粗黑标题、荧光高亮与漫画插画，用于项目封面、信息图、流程卡片 | [介绍与示例](monkey-ai-notes-imagegen/README.md) · [SKILL.md](monkey-ai-notes-imagegen/SKILL.md) |
-| FAQ 分类图标 | 从分类名称出发，制作统一圆形底色、白色象形符号的帮助中心图标 | [介绍与示例](generate-faq-icons/README.md) · [SKILL.md](generate-faq-icons/SKILL.md) |
 | 英语场景闪卡 | 把教材或自建词表组织成场景插画，独立生成准确的词汇、音标、释义和学习内容 | [介绍与示例](english-scene-flashcards/README.md) · [SKILL.md](english-scene-flashcards/SKILL.md) |
 
 ## 看看效果
@@ -15,12 +14,6 @@
 ![AI 实践分享封面插画示例](monkey-ai-notes-imagegen/examples/ai-sharing-cover.png)
 
 实际生成的横版应用示例；技能默认也提供 3:4 图文版式。正文排版、参考风格与生成插画的职责分别说明，不将参考作品冒称为原创结果。
-
-### FAQ 分类图标
-
-![FAQ 图标参考合辑](generate-faq-icons/assets/reference-contact-sheet.png)
-
-已有系列的参考合辑，用于理解圆形徽章、配色和前景符号规则。新图标默认输出 108×108 透明 PNG，保留旧素材尺寸例外。
 
 ### 英语场景闪卡
 
@@ -45,8 +38,6 @@ cd AI-skills
 ```text
 使用 $monkey-ai-notes-imagegen，主题是“把零散资料变成可用知识”，制作一张漫画封面。
 
-使用 $generate-faq-icons，制作“Open API”分类图标，108×108、透明背景，与现有系列一致。
-
 使用 $english-scene-flashcards，把我提供的词表做成适合学习者年龄的场景闪卡，保留原始英文、音标和释义。
 ```
 
@@ -55,7 +46,6 @@ cd AI-skills
 ```text
 AI-skills/
 ├── monkey-ai-notes-imagegen/
-├── generate-faq-icons/
 └── english-scene-flashcards/
 ```
 
