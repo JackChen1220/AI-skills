@@ -1,0 +1,343 @@
+{
+  "schema_version": "1.0",
+  "units": {
+    "coordinate_system": "normalized design pixels",
+    "canvas": [
+      1080,
+      1440
+    ],
+    "scale_rule": "source_x *1080/source_width; y same uniform scale",
+    "not_model_parameters": true,
+    "measurement_note": "Bundled layout-measurements uses x*1080/W and y*1440/H; reconstruction uses uniform scaling on true3:4 canvas. Difference for2560x3414 is below0.02%."
+  },
+  "evidence_labels": {
+    "measured": "从指定源图像素测量/分箱得到",
+    "estimated": "视觉估计，不能当源字体或精确CSS",
+    "recommended": "为稳定复用取整后的设计规范"
+  },
+  "canvas": {
+    "aspect": [
+      3,
+      4
+    ],
+    "recommended_size": [
+      1536,
+      2048
+    ],
+    "observed_common_size": [
+      2560,
+      3414
+    ],
+    "resolution_is_prompt_preference_not_guarantee": true
+  },
+  "palette": {
+    "paper": "#FFFEFA",
+    "ink": "#17161B",
+    "muted": "#6D6E75",
+    "grid": "#ECEBE7",
+    "lime": "#BBFF2B",
+    "cyan": "#7ACDEF",
+    "purple": "#A38EF7",
+    "yellow": "#FEE46B",
+    "coral": "#FE7759",
+    "mint": "#5BDCB0",
+    "pink": "#F5ADD1",
+    "card": "#FFFEFA",
+    "blue_shadow": "#86B9F2",
+    "pale_cyan": "#DFF1F5",
+    "pale_coral": "#FEDCD2",
+    "pale_purple": "#EAE2F7"
+  },
+  "palette_evidence": {
+    "paper,ink,lime,cyan,purple,yellow,coral": "measured source RGB candidates; rounded canonical reuse, JPEG variance retained in measurements",
+    "muted,grid,mint,pink": "recommended swatches fitted to visual family; not claimed exact universal original fill"
+  },
+  "profiles": {
+    "editorial-bold": {
+      "background": "#FFFEFA",
+      "grid_pitch": 82,
+      "grid_line": 2,
+      "grid_color": "#ECEBE7",
+      "margin_x": 70,
+      "content_width": 940,
+      "card": {
+        "stroke": 7,
+        "radius": 35,
+        "shadow": [
+          12,
+          14
+        ],
+        "shadow_blur": 0,
+        "padding": 32,
+        "gap": 24
+      },
+      "hero": {
+        "stroke": 8.5,
+        "radius": 42,
+        "shadow": [
+          16,
+          18
+        ],
+        "shadow_color": "#A38EF7"
+      },
+      "flow": {
+        "stroke": 5.3,
+        "radius": 30.5,
+        "shadow": [
+          7,
+          8
+        ]
+      },
+      "typography": {
+        "title_em_recommended": [
+          76,
+          90
+        ],
+        "title_weight_visual": "very heavy / approx900",
+        "title_line_height": [
+          0.98,
+          1.12
+        ],
+        "card_title": [
+          34,
+          40
+        ],
+        "body": [
+          24,
+          28
+        ],
+        "metadata": [
+          14,
+          18
+        ],
+        "font_identity": "unknown; modern Chinese sans, condensed-looking dense glyph mass, Latin monospace micro-labels"
+      },
+      "evidence": "measured anchors I192,I193,I185,I158; geometry rounded recommendations, typography estimated",
+      "grid_observed_support_width": [
+        1.69,
+        3.16
+      ],
+      "value_pill": {
+        "stroke": 5.5,
+        "radius": 25,
+        "shadow": [
+          8.5,
+          11
+        ],
+        "shadow_color": "#FEE46B",
+        "height": 72
+      },
+      "badges": {
+        "cover": {
+          "height": 65,
+          "note": "I192 front badge"
+        },
+        "content": {
+          "height": 74,
+          "note": "I193/I158 front face"
+        },
+        "flow": {
+          "height": 56,
+          "note": "I185 front badge"
+        }
+      }
+    },
+    "screenshot-editorial": {
+      "background": "#FFFDF6",
+      "grid_pitch": 36,
+      "grid_line": 1,
+      "grid_color": "#F0EEE8",
+      "margin_x": 66,
+      "content_width": 948,
+      "card": {
+        "stroke": 5,
+        "radius": 24,
+        "shadow": [
+          17,
+          17
+        ],
+        "shadow_blur": 0,
+        "padding": 24,
+        "gap": 18
+      },
+      "hero": {
+        "stroke": 5,
+        "radius": 24,
+        "shadow": [
+          17,
+          17
+        ],
+        "shadow_color": "#74D9FF"
+      },
+      "flow": {
+        "stroke": 4,
+        "radius": 18,
+        "shadow": [
+          8,
+          8
+        ]
+      },
+      "typography": {
+        "title_em_recommended": [
+          70,
+          80
+        ],
+        "title_weight_visual": "bold / approx800-900",
+        "title_line_height": [
+          1.05,
+          1.18
+        ],
+        "card_title": [
+          28,
+          34
+        ],
+        "body": [
+          22,
+          28
+        ],
+        "metadata": [
+          14,
+          17
+        ],
+        "font_identity": "unknown; modern Chinese sans; exact source font not inferred"
+      },
+      "evidence": "measured anchor I174; associated screenshot content; title em is recommended"
+    },
+    "early-playful": {
+      "background": "#FFFEFA",
+      "grid_pitch": 44,
+      "grid_line": 1,
+      "grid_color": "#EFEEE9",
+      "margin_x": 66,
+      "content_width": 948,
+      "card": {
+        "stroke": 3,
+        "radius": 18,
+        "shadow": [
+          6,
+          7
+        ],
+        "shadow_blur": 0,
+        "padding": 24,
+        "gap": 18
+      },
+      "hero": {
+        "stroke": 4,
+        "radius": 24,
+        "shadow": [
+          7,
+          8
+        ],
+        "shadow_color": "#A994FF"
+      },
+      "flow": {
+        "stroke": 3,
+        "radius": 18,
+        "shadow": [
+          6,
+          7
+        ]
+      },
+      "typography": {
+        "title_em_recommended": [
+          58,
+          72
+        ],
+        "title_weight_visual": "bold / approx700-900",
+        "title_line_height": [
+          1.1,
+          1.22
+        ],
+        "card_title": [
+          27,
+          34
+        ],
+        "body": [
+          22,
+          27
+        ],
+        "metadata": [
+          13,
+          17
+        ],
+        "font_identity": "unknown; regular/bold sans in dense colorful infographic"
+      },
+      "palette_overrides": {
+        "lime": "#CBFE3D",
+        "purple": "#A994FF",
+        "yellow": "#FFE55C",
+        "pink": "#FFB4D2",
+        "cyan": "#8DDBFF"
+      },
+      "evidence": "grid measured from I001,I004; other component values estimated/recommended"
+    }
+  },
+  "variants_not_to_average": {
+    "screenshot-update": {
+      "anchor": "I117",
+      "grid_pitch": 56,
+      "background": "#FFFEF8",
+      "note": "紧凑截图更新版本：以其原图优先，不和36网格平均"
+    },
+    "fine-automation": {
+      "anchors": "I071-I076",
+      "grid_pitch_approx": 46,
+      "note": "独立细网格自动化信息图；指定时以具体参考覆盖默认"
+    },
+    "transitional-editorial": {
+      "anchors": "I009-I039",
+      "note": "网格密度及描边混合，不能按日期直接套统一参数"
+    }
+  },
+  "decorations": {
+    "left_outline": "rotated rounded-square outline partially clipped at left, very low contrast",
+    "bottom_right": "one pale quarter-circle cropped by page corner",
+    "no_random_stickers": true
+  },
+  "color_sequence_suggestion": [
+    "cyan",
+    "coral",
+    "yellow",
+    "purple",
+    "mint",
+    "pink",
+    "lime"
+  ],
+  "generation_constraints": [
+    "flat clean paper UI; no mockup border",
+    "solid near-black strokes; zero blur UI shadows",
+    "one dominant accent per content page",
+    "use real screenshot when claiming actual product interface",
+    "preserve exact user copy; do not copy reference metrics or author branding"
+  ],
+  "precision_note": "Pixels describe observed artifacts or intended layout. Image generation is probabilistic and these fields do not force exact geometry, colors, fonts or output resolution.",
+  "observed_visible_glyph_height_1080": {
+    "I192_cover_single_line": 96.17,
+    "I193_content_line": 75,
+    "I158_content_line": 75,
+    "I174_screenshot_line": 80,
+    "subtitle_example": 27,
+    "note": "Visible glyph bounding box; not CSS font-size."
+  },
+  "highlights": {
+    "underline": {
+      "visible_glyph_height_ratio": 0.33,
+      "anchor": "I174",
+      "placement": "under lower third of glyphs",
+      "source_measurement": "50/154source px"
+    },
+    "marker": {
+      "visible_glyph_height_ratio": 0.73,
+      "anchor": "I193",
+      "placement": "middle/lower glyph area",
+      "source_measurement": "130/178source px"
+    },
+    "full-block": {
+      "visible_glyph_height_ratio": 1.4,
+      "anchor": "I185",
+      "placement": "rectangular solid block behind full emphasized line",
+      "source_measurement": "250/179source px"
+    },
+    "note": "Ratios from selected source scanlines; geometry targets, not model guarantees. Choose by reference, do not average."
+  }
+}

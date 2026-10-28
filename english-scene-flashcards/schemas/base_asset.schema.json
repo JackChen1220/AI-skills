@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BaseIllustrationAsset",
+  "type": "object",
+  "required": ["card_id", "filename", "width", "height", "text_policy", "adapter"],
+  "properties": {
+    "card_id": {"type": "string", "minLength": 1},
+    "filename": {"type": "string", "minLength": 1},
+    "width": {"type": "integer", "minimum": 1},
+    "height": {"type": "integer", "minimum": 1},
+    "sha256": {"type": ["string", "null"]},
+    "adapter": {"type": "string", "minLength": 1},
+    "text_policy": {"const": "ZERO_INSTRUCTIONAL_TYPOGRAPHY"},
+    "generator": {"type": ["string", "null"]},
+    "generated_at": {"type": ["string", "null"]},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

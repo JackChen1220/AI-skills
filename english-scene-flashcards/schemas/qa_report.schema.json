@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QAReport",
+  "type": "object",
+  "required": ["card_id","overall","checks"],
+  "properties": {
+    "card_id": {"type": "string"},
+    "overall": {"enum": ["PASS","FAIL"]},
+    "checks": {"type": "object","additionalProperties": {"enum": ["PASS","FAIL","WARN","N/A"]}},
+    "failure_codes": {"type": "array","items": {"type": "string"}},
+    "notes": {"type": "array","items": {"type": "string"}},
+    "repair_class": {"type": ["string","null"]},
+    "reviewed_at": {"type": ["string","null"]},
+    "humanReviewed": {"type": "boolean"},
+    "sha256": {"type": "object","additionalProperties": {"type": "string","pattern": "^[a-fA-F0-9]{64}$"}},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path","sha256"],
+        "properties": {
+          "path": {"type": "string","minLength": 1},
+          "sha256": {"type": "string","pattern": "^[a-fA-F0-9]{64}$"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

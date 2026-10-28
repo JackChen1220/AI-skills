@@ -1,0 +1,4 @@
+interface:
+  display_name: "FAQ Icon Generator"
+  short_description: "Generate Webull-style FAQ category icons"
+  default_prompt: "Use $generate-faq-icons to create a 108px FAQ category icon that matches the Webull help-center icon style."

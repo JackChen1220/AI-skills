@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardPlanItem",
+  "type": "object",
+  "required": ["card_id","unit","targets","card_type","template_id","status"],
+  "properties": {
+    "card_id": {"type": "string","minLength": 1},
+    "unit": {"type": "string"},
+    "targets": {"type": "array","minItems": 1,"uniqueItems": true,"items": {"type": "string"}},
+    "card_type": {"type": "string"},
+    "template_id": {"type": "string"},
+    "scene_concept": {"type": ["string","null"]},
+    "status": {"type": "string"},
+    "review_note": {"type": ["string","null"]},
+    "group_score": {"type": ["number","null"],"minimum": 0,"maximum": 100}
+  },
+  "additionalProperties": true
+}

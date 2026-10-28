@@ -1,0 +1,4 @@
+interface:
+  display_name: "英语场景闪卡"
+  short_description: "将教材或自建英语词表制作成场景闪卡，独立保存底图、教学文字与学习练习。"
+  default_prompt: "使用 $english-scene-flashcards，将提供的英语词表制作成场景闪卡或独立学习包。"

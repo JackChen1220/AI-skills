@@ -1,0 +1,14 @@
+[
+  {
+    "id": "EX-U01-classroom",
+    "grade": "example",
+    "book": "example",
+    "unit": "Unit 1",
+    "term": "classroom",
+    "ipa": "/ˈklɑːsruːm/",
+    "chinese": "教室",
+    "page": 1,
+    "sense_id": "classroom-place",
+    "source_ref": "example"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "template": "cover-illustration",
+  "profile": "editorial-bold",
+  "accent": "lime",
+  "topic": "把零散资料变成可用知识：通用工作流示意，不代表任何产品的实际功能或效果",
+  "title_lines": ["把零散资料", "变成可用知识"],
+  "subtitle": "从收集到检索，让资料真正派上用场",
+  "badge": "知识整理工作流",
+  "masthead": "KNOWLEDGE WORKFLOW / CONCEPT NOTE",
+  "footer": "工作流示意 · 按自己的资料与需求调整",
+  "items": [],
+  "pills": ["收集整理", "建立索引", "检索复用"],
+  "scene": "阳光照亮的木质桌面。左侧年轻使用者面前散放文档、便签与书页；中间友好的蓝白小机器人把不同资料整理成几组清晰的卡片；右侧屏幕呈现简洁的分类、搜索与结果卡。用一条清晰的左到右流线串起输入、整理和复用。道具适量，暖奶油色底面，不在插画内部添加可读产品名称或虚构数字。",
+  "illustration_variant": "bright"
+}

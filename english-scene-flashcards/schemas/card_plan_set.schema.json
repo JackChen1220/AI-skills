@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CardPlanSet",
+  "type": "array",
+  "items": {"$ref": "card_plan.schema.json"}
+}

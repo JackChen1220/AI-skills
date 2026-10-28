@@ -1,0 +1,272 @@
+{
+  "package": "english-scene-flashcards",
+  "version": "2.3.1",
+  "manifest_excludes_self": true,
+  "required_dirs": [
+    "core",
+    "engine",
+    "schemas",
+    "adapters",
+    "assets",
+    "tools"
+  ],
+  "file_count_excluding_manifest": 51,
+  "files": [
+    {
+      "path": "ADAPTER_CONFORMANCE_CHECKLIST.md",
+      "bytes": 1668,
+      "sha256": "acde01b4d14ff971a23c22415a08b855236f10d4df63247f6845b1b51dd52e4e"
+    },
+    {
+      "path": "ADAPTER_ROUTING.md",
+      "bytes": 2321,
+      "sha256": "beba0a4e43ffc8003780ee8406e9eb918de563e259b8e6b7e49e66defe8ec87d"
+    },
+    {
+      "path": "AGENT_CONTRACT.md",
+      "bytes": 7072,
+      "sha256": "10e24bf80d324ee71e77ed69263981fa561c8280b799bf124aa99971e945ba7f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 3247,
+      "sha256": "6e71faf985b610eaeb3655d06d35e38f9554a91a5084b4155b4e8ecb818b1447"
+    },
+    {
+      "path": "INSTALLATION.md",
+      "bytes": 999,
+      "sha256": "c07670ee1352d5a9603d742c0dc05aa90d70b49930c16c7796371de642b1b610"
+    },
+    {
+      "path": "MIGRATION_V1_TO_V2.md",
+      "bytes": 1337,
+      "sha256": "220b2ab2d4224452db60463af0b005905163cdf2bc26ae446da4e5921d343d0d"
+    },
+    {
+      "path": "MIGRATION_V2.1_TO_V2.2.md",
+      "bytes": 1062,
+      "sha256": "20b1713ad87fa038b63e390a4964512473b1ee9a89fd1c2c0f7f6fcd34451d67"
+    },
+    {
+      "path": "PORTABILITY_AUDIT.md",
+      "bytes": 914,
+      "sha256": "3fcbe39507220889b638fbe14437d57e69948c2c862da504f6d8ffc90b8116fb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12409,
+      "sha256": "4a6f8b68decc4ae9e4d027a8f9f57a6fc50f113f9b2d63a20691ca977fbc2f81"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6294,
+      "sha256": "531291e6db625fc10d01d0e91a55e8ade19212cff9c91c86ed643a8a214bfbcd"
+    },
+    {
+      "path": "adapters/doubao_work/ADAPTER.md",
+      "bytes": 8669,
+      "sha256": "c04ff56823266de41be04efe6d67d8ce24cc7ded0e76685ecfb888d8cb1a55b2"
+    },
+    {
+      "path": "adapters/doubao_work/OBSERVED_FAILURE_AUDIT.md",
+      "bytes": 2507,
+      "sha256": "51f8b7883839a8297e9be5a774bebc5cbac88cb27853106481c2153feebd5298"
+    },
+    {
+      "path": "adapters/generic/ADAPTER_TEMPLATE.md",
+      "bytes": 732,
+      "sha256": "790e127d2e245d3d69c9c9e60ba68605ecb7e8914163b08913b8fc48e63dbe79"
+    },
+    {
+      "path": "adapters/openai/ADAPTER.md",
+      "bytes": 2074,
+      "sha256": "f343eac33b9c09f7101372ce6d4bedd2ad91a8c541a5d84d88a39d59c75c781f"
+    },
+    {
+      "path": "adapters/qwen_office/ADAPTER.md",
+      "bytes": 14495,
+      "sha256": "c7c50ca312103a323f51ed90c6d16a251b367ccabed2f9b88b4329b5ec2bd5f0"
+    },
+    {
+      "path": "adapters/qwen_office/OBSERVED_FAILURE_AUDIT.md",
+      "bytes": 5479,
+      "sha256": "4cb7f2ffee45a4e077de071b106100a46b28f7cb7e1ee93ef9ddd8fdeba0f9bc"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 299,
+      "sha256": "1b237abd558926053dd5bc4ad9711cd5eeeeaa2a78043c4ce0bf5952356247ea"
+    },
+    {
+      "path": "assets/golden_set/G3A-U01-C01-approved.png",
+      "bytes": 7509,
+      "sha256": "e40c5e0002dff0a353be88a141a07422354e85aabf4cba660f71c13c9a268c4d"
+    },
+    {
+      "path": "assets/golden_set/README.md",
+      "bytes": 552,
+      "sha256": "ba988b1effcb615a2889646bb3939920e936b7048a05e08e6cec9a985405ff47"
+    },
+    {
+      "path": "assets/style_references/connector-light-01.png",
+      "bytes": 15009,
+      "sha256": "a39eb4c2cec8bf8cb5be1085834171e2b5ba4c10e29b78bae9ff2b593e311820"
+    },
+    {
+      "path": "assets/style_references/connector-light-02.png",
+      "bytes": 15009,
+      "sha256": "b334aa6a206f0911c4b3e827f0f705aada6b6c416b5838b48bcd8c7b934da9d0"
+    },
+    {
+      "path": "core/connector_system_v3.md",
+      "bytes": 1324,
+      "sha256": "f64f700e16df4f9786c1b8d2d2b93220b0ee54ec593c2985289e89c2a9a2b9df"
+    },
+    {
+      "path": "core/design_tokens.json",
+      "bytes": 1414,
+      "sha256": "312bea10eaa6ef6597817ffd8b0113f26b0fdc324e21d6a826d87e5e84efc083"
+    },
+    {
+      "path": "core/grouping_rules.md",
+      "bytes": 1633,
+      "sha256": "69a8311c1239ced99b0d61b3861aae70b40a9bad0134df72a59d7ee6abcc13e4"
+    },
+    {
+      "path": "core/qa_rules.md",
+      "bytes": 3320,
+      "sha256": "26e16a3d6622970d42dfc95ce5689b48555662dd9a08ac7ae3015ba58b16141f"
+    },
+    {
+      "path": "core/scene_brief_rules.md",
+      "bytes": 1473,
+      "sha256": "469dc4725093b8538d5926b0c14612411dbace15abd0a51d90ea977cef6ce803"
+    },
+    {
+      "path": "core/source_truth.md",
+      "bytes": 1907,
+      "sha256": "57befbca35d58b0247f425b856e9d7226859c9668f1eb1962c1ac78891f37c6f"
+    },
+    {
+      "path": "core/visual_spec.md",
+      "bytes": 1824,
+      "sha256": "09e436ea084e809d7a1d1182b716b53269c77631a6d7a9de8d58e4c00c2ea5bf"
+    },
+    {
+      "path": "core/workflow.md",
+      "bytes": 4441,
+      "sha256": "63f268e117de0c4247a713cba699270028024b84d388ebf49b2ca921f875e763"
+    },
+    {
+      "path": "engine/README.md",
+      "bytes": 560,
+      "sha256": "047e5ac90adaeedfac092e297f320e4861091b8cbf8474d0af2a6da8dcf3a27c"
+    },
+    {
+      "path": "engine/artifact_store_contract.md",
+      "bytes": 998,
+      "sha256": "a2c693f8aa13304604a8830f30a35b5a29f14c83f5422a78150d5d10f91c95ae"
+    },
+    {
+      "path": "engine/composer_contract.md",
+      "bytes": 1302,
+      "sha256": "87f0fccd2377d6b52b9aaa49074ebb9d75f26d9b2378146c1f60c4dfb986abfc"
+    },
+    {
+      "path": "engine/prompt_compiler_contract.md",
+      "bytes": 579,
+      "sha256": "5e13985c1f103286c36f26f6c7d31c3b2a00ad35e8d591bdcd7b726f59543876"
+    },
+    {
+      "path": "engine/qa_engine_contract.md",
+      "bytes": 827,
+      "sha256": "1bf50351c2cd230e969e6f76fd1181a0c90abbb13315cbc0cd3c07b135645ac4"
+    },
+    {
+      "path": "engine/state_machine.md",
+      "bytes": 737,
+      "sha256": "b6803da8190f004f561e6103df3da5ed65813a1dda9adcfe831d19baa0af5761"
+    },
+    {
+      "path": "examples/minimal_run/card_plan.json",
+      "bytes": 207,
+      "sha256": "15e48c6133c41fa1743ea7e9157eb887b78efdc8bdc464ad02ce868be60c60b5"
+    },
+    {
+      "path": "examples/minimal_run/vocabulary_master.json",
+      "bytes": 270,
+      "sha256": "db391ba3bef70d698c85aaf13884f90c253548f690f58dae662a336d1f75a1dd"
+    },
+    {
+      "path": "profiles/speak_replay.md",
+      "bytes": 7192,
+      "sha256": "57d281ee674626d1d12eab8130aee4708000915cc963cdb41b79140e8a0b6108"
+    },
+    {
+      "path": "schemas/base_asset.schema.json",
+      "bytes": 774,
+      "sha256": "7c3a00b67995df47a92aa6afec51d54925f9cbab3480ee754364b9e56113947f"
+    },
+    {
+      "path": "schemas/card_plan.schema.json",
+      "bytes": 705,
+      "sha256": "2f17ebf2aa301bd893f9447b2e00e4a2183f0d24070c5fae295d6b44e0652e1e"
+    },
+    {
+      "path": "schemas/card_plan_set.schema.json",
+      "bytes": 155,
+      "sha256": "67a96a379ee09057fde2d612053b5a9c401d4700d4271ef5224ff002e9ff556e"
+    },
+    {
+      "path": "schemas/compiled_prompt.schema.json",
+      "bytes": 543,
+      "sha256": "3ed896aa628698a7962952dea8c08dbf0c5cf9e228be01bf6d4e206418c758c3"
+    },
+    {
+      "path": "schemas/layout_spec.schema.json",
+      "bytes": 2678,
+      "sha256": "d8e03fa1019a709db3b967678d6eca487a74faff967f5c258c1bc1c7c654fdc6"
+    },
+    {
+      "path": "schemas/manifest.schema.json",
+      "bytes": 1386,
+      "sha256": "d31a7e0e7a7deff5980a3fb12cdd1e4977a08caf02a6d327d333397f929af63b"
+    },
+    {
+      "path": "schemas/qa_report.schema.json",
+      "bytes": 1089,
+      "sha256": "367236c9e39963640a9b92f6aa570d8feb1c6fc47bd14d6a23873e0885d2d491"
+    },
+    {
+      "path": "schemas/repair_action.schema.json",
+      "bytes": 749,
+      "sha256": "7d73c62900294db39bc6b09a967385c5fda5ed9dac0e29ef2a3c9ed755257845"
+    },
+    {
+      "path": "schemas/run_state.schema.json",
+      "bytes": 805,
+      "sha256": "2ef2e3f7303f561b29124a520acfa794a1d76e2c93286e70ee20eefee254d542"
+    },
+    {
+      "path": "schemas/scene_brief.schema.json",
+      "bytes": 1584,
+      "sha256": "79689af3ebf1f1fe12a8c99128bfbc64960cd890d263f02d95c2e1d55e3c9f7b"
+    },
+    {
+      "path": "schemas/vocabulary.schema.json",
+      "bytes": 734,
+      "sha256": "30785ae098162b0abb43614499d17efabe462cca1d04801d0a367800a6273980"
+    },
+    {
+      "path": "schemas/vocabulary_master.schema.json",
+      "bytes": 161,
+      "sha256": "523d3697a05eee0754f6c5eb9b53004d8cd2eecc30ae6b2a2c55b6209349b2f0"
+    },
+    {
+      "path": "tools/validate_package.py",
+      "bytes": 7153,
+      "sha256": "43ba303f96da7c2a9354b7166ac22c5bb5c376ca6b51a6c9f27debe1887ff164"
+    }
+  ],
+  "distribution_note": "GitHub repository distribution: reference PNGs are downscaled to max 320px for lightweight repository use; filenames and semantic reference roles are unchanged."
+}

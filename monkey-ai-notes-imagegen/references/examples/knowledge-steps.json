@@ -1,0 +1,21 @@
+{
+  "template": "steps-4",
+  "profile": "editorial-bold",
+  "accent": "cyan",
+  "topic": "把零散资料变成可用知识：通用工作流示意，不代表任何产品的实际功能或效果",
+  "title_lines": ["把零散资料", "变成可用知识"],
+  "subtitle": "四步整理，让每份资料都有清楚的去处",
+  "badge": "四步工作流",
+  "masthead": "KNOWLEDGE WORKFLOW / PROCESS NOTE",
+  "conclusion": "先整理，再建立索引；需要时检索，使用后补充",
+  "footer": "COLLECT · ORGANIZE · INDEX · RETRIEVE",
+  "highlight_variant": "full-block",
+  "items": [
+    {"title": "收集资料", "body": "汇总文档、链接与笔记", "result": "统一入口"},
+    {"title": "整理结构", "body": "按主题分类，补全必要说明", "result": "清楚归类"},
+    {"title": "建立索引", "body": "为资料添加关键词与定位线索", "result": "方便查找"},
+    {"title": "检索复用", "body": "按问题查找，并记录新的用法", "result": "持续积累"}
+  ],
+  "pills": ["资料", "结构", "索引", "复用"],
+  "illustration_variant": "bright"
+}

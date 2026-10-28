@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompiledPrompt",
+  "type": "object",
+  "required": ["card_id","prompt","text_policy"],
+  "properties": {
+    "card_id": {"type": "string"},
+    "prompt": {"type": "string","minLength": 1},
+    "negative_constraints": {"type": "array","items": {"type": "string"}},
+    "text_policy": {"type": "string","const": "ZERO_INSTRUCTIONAL_TYPOGRAPHY"},
+    "adapter": {"type": ["string","null"]},
+    "version": {"type": ["string","null"]}
+  },
+  "additionalProperties": true
+}

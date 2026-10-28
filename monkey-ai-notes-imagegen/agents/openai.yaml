@@ -1,0 +1,4 @@
+interface:
+  display_name: "猴子 AI 笔记视觉生成"
+  short_description: "用参考图、像素参数与版式模板生成同系列漫画封面和信息图卡片"
+  default_prompt: "使用 $monkey-ai-notes-imagegen，为我的主题生成与参考系列一致的封面和内容图片。"

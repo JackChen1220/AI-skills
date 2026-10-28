@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LayoutSpec",
+  "type": "object",
+  "required": ["card_id","canvas","labels"],
+  "properties": {
+    "card_id": {"type": "string"},
+    "canvas": {
+      "type": "object",
+      "required": ["width","height"],
+      "properties": {
+        "width": {"type": "integer","minimum": 1},
+        "height": {"type": "integer","minimum": 1},
+        "aspect_ratio": {"type": ["string","null"]}
+      },
+      "additionalProperties": true
+    },
+    "safe_margin_px": {"type": ["number","null"],"minimum": 0},
+    "illustration_focus_zone": {"type": ["object","null"]},
+    "labels": {
+      "type": "array","minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["connector_policy"],
+        "anyOf": [
+          {"required": ["term","slot","mapping_mode"]},
+          {"required": ["wordId","box_norm"]}
+        ],
+        "allOf": [
+          {
+            "if": {"required": ["wordId"]},
+            "then": {
+              "not": {
+                "anyOf": [
+                  {"required": ["term"]},
+                  {"required": ["ipa"]},
+                  {"required": ["chinese"]},
+                  {"required": ["gloss"]},
+                  {"required": ["meaning"]},
+                  {"required": ["english"]}
+                ]
+              }
+            }
+          }
+        ],
+        "properties": {
+          "wordId": {"type": "string","minLength": 1},
+          "term": {"type": "string"},
+          "slot": {"type": "string"},
+          "mapping_mode": {"enum": ["direct_anchor","action_anchor","scene_state","dialogue_phrase","timeline_segment","comparison_zone","relation_anchor"]},
+          "box_norm": {
+            "type": "object",
+            "required": ["x","y","w","h"],
+            "properties": {
+              "x": {"type": "number","minimum": 0,"maximum": 1},
+              "y": {"type": "number","minimum": 0,"maximum": 1},
+              "w": {"type": "number","minimum": 0,"maximum": 1},
+              "h": {"type": "number","minimum": 0,"maximum": 1}
+            },
+            "additionalProperties": false
+          },
+          "anchor_target": {"type": ["string","null"]},
+          "connector_policy": {"enum": ["required","optional","none"]},
+          "connector_style_token": {"type": ["string","null"]},
+          "reading_order": {"type": ["integer","null"],"minimum": 1}
+        },
+        "additionalProperties": true
+      }
+    },
+    "constraints": {"type": "array","items": {"type": "string"}},
+    "visual_spec": {"type": ["string","null"]},
+    "connector_token": {"type": ["string","null"]}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "I192",
+    "path": "source-corpus/20260913_AI不该只给建议，它要把活干完/001.jpg",
+    "article": "20260913_AI不该只给建议，它要把活干完",
+    "page": "001",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/cover-bright.jpg",
+    "sha256": "e6fd0f5c9365d5382ca83515bcd51b35b45a7120515dc0c8e720dbd5fbe23b7e"
+  },
+  {
+    "id": "I163",
+    "path": "source-corpus/20260910_VoiceStudio：把开源语音模型装进本地工作/001.jpg",
+    "article": "20260910_VoiceStudio：把开源语音模型装进本地工作",
+    "page": "001",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/cover-warm.jpg",
+    "sha256": "c2e76077560afecf41421ab1a4a7dc7f587bf64762daa10f7f6f1ef3c1d730ef"
+  },
+  {
+    "id": "I183",
+    "path": "source-corpus/20260912_开源语音智能体：实时听、想、说/001.jpg",
+    "article": "20260912_开源语音智能体：实时听、想、说",
+    "page": "001",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/cover-sparse.jpg",
+    "sha256": "50f6212972af4ecb9935cf1afd216c7085b8773e91926dc4c5d59bd1a9043870"
+  },
+  {
+    "id": "I193",
+    "path": "source-corpus/20260913_AI不该只给建议，它要把活干完/002.jpg",
+    "article": "20260913_AI不该只给建议，它要把活干完",
+    "page": "002",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/content-grid.jpg",
+    "sha256": "5b1723b0a3f91336cebad61b180abd54837d93f846791c927b6352a53ab39b5c"
+  },
+  {
+    "id": "I185",
+    "path": "source-corpus/20260912_开源语音智能体：实时听、想、说/003.jpg",
+    "article": "20260912_开源语音智能体：实时听、想、说",
+    "page": "003",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/flow-vertical.jpg",
+    "sha256": "5e5abee1a019a229bff4f129b64ad635df055990bdb898470deed781a22b797a"
+  },
+  {
+    "id": "I158",
+    "path": "source-corpus/20260909_把538个AI案例变成可复用提示词/006.jpg",
+    "article": "20260909_把538个AI案例变成可复用提示词",
+    "page": "006",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/template-matrix.jpg",
+    "sha256": "ae9369d29dac451f0ff6fcf187001106385c43fbe732b6bea85246f2d0303250"
+  },
+  {
+    "id": "I196",
+    "path": "source-corpus/20260913_AI不该只给建议，它要把活干完/005.jpg",
+    "article": "20260913_AI不该只给建议，它要把活干完",
+    "page": "005",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/architecture.jpg",
+    "sha256": "28e0734067db426540256b18404d59e0bfdda201f7d9a73c9d88eaca56dee0f0"
+  },
+  {
+    "id": "I174",
+    "path": "source-corpus/20260911_GrokBot开源平替：一个人，也能拥有一整支/001.png",
+    "article": "20260911_GrokBot开源平替：一个人，也能拥有一整支",
+    "page": "001",
+    "width": 2160,
+    "height": 2880,
+    "asset": "assets/references/screenshot-cover.png",
+    "sha256": "8efe14f3097f1d565cd31693df46d5e026a3f77f0c5f0234ad3b740dab660641"
+  },
+  {
+    "id": "I175",
+    "path": "source-corpus/20260911_GrokBot开源平替：一个人，也能拥有一整支/002.png",
+    "article": "20260911_GrokBot开源平替：一个人，也能拥有一整支",
+    "page": "002",
+    "width": 1080,
+    "height": 1440,
+    "asset": "assets/references/screenshot-content.png",
+    "sha256": "ee580f58fa67a5954ad368363a327a0782c8c5825a369a8cd88cf1d973bf3a6d"
+  },
+  {
+    "id": "I190",
+    "path": "source-corpus/20260912_开源语音智能体：实时听、想、说/008.jpg",
+    "article": "20260912_开源语音智能体：实时听、想、说",
+    "page": "008",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/code-quickstart.jpg",
+    "sha256": "7345bc21d5cb9fab5e8078f21413388530f7235ba60693f367fb3792752e87fe"
+  },
+  {
+    "id": "I171",
+    "path": "source-corpus/20260910_VoiceStudio：把开源语音模型装进本地工作/009.jpg",
+    "article": "20260910_VoiceStudio：把开源语音模型装进本地工作",
+    "page": "009",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/comparison.jpg",
+    "sha256": "e01bfbabb2c90339415acf0b623fe9d6bf4fb2088e005639d4688b7d0f052669"
+  },
+  {
+    "id": "I199",
+    "path": "source-corpus/20260913_AI不该只给建议，它要把活干完/008.jpg",
+    "article": "20260913_AI不该只给建议，它要把活干完",
+    "page": "008",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/comparison-table.jpg",
+    "sha256": "0225380854b00259f4867c88054d5ab84fb915f210577daabbdd6357941fd1a8"
+  },
+  {
+    "id": "I191",
+    "path": "source-corpus/20260912_开源语音智能体：实时听、想、说/009.jpg",
+    "article": "20260912_开源语音智能体：实时听、想、说",
+    "page": "009",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/summary.jpg",
+    "sha256": "ab8f0fe65f2e967ef1227b3b6fdddf24d1eaec2e31d3f9d24c85ca9dfcd94ea9"
+  },
+  {
+    "id": "I001",
+    "path": "source-corpus/20260817_仓颉Skills：蒸馏，就是AI时代的合法抢劫/001.jpg",
+    "article": "20260817_仓颉Skills：蒸馏，就是AI时代的合法抢劫",
+    "page": "001",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/early-playful-cover.jpg",
+    "sha256": "a378adcb6fe086b61e2fd31fd5127efefa068ebfda7e15fe2d8286598e141458"
+  },
+  {
+    "id": "I004",
+    "path": "source-corpus/20260817_仓颉Skills：蒸馏，就是AI时代的合法抢劫/004.jpg",
+    "article": "20260817_仓颉Skills：蒸馏，就是AI时代的合法抢劫",
+    "page": "004",
+    "width": 2560,
+    "height": 3414,
+    "asset": "assets/references/early-playful-flow.jpg",
+    "sha256": "03abf9f63a9b583bdba168f8d34c833856c5dedd9acafbda5360589e35c932a4"
+  },
+  {
+    "id": "I117",
+    "path": "source-corpus/20260905_10 万+人看过的 WeKnora，更新了/001.png",
+    "article": "20260905_10 万+人看过的 WeKnora，更新了",
+    "page": "001",
+    "width": 1080,
+    "height": 1440,
+    "asset": "assets/references/screenshot-update-cover.png",
+    "sha256": "e250e77cf672cd5a8a0cc3a5e508d61eec2f6ed4e6b598e56d45590ced8285cd"
+  }
+]

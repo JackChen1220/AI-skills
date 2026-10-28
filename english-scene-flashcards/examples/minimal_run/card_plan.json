@@ -1,0 +1,11 @@
+[
+  {
+    "card_id": "EX-U01-C01",
+    "unit": "Unit 1",
+    "targets": ["classroom"],
+    "card_type": "Object / Place Card",
+    "template_id": "T01",
+    "status": "PLANNED",
+    "group_score": 100
+  }
+]

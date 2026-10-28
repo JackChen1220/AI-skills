@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RunState",
+  "type": "object",
+  "required": ["run_id","skill_version","adapter","cards","platform"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "skill_version": {"type": "string"},
+    "adapter": {"type": "string"},
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["card_id","state"],
+        "properties": {
+          "card_id": {"type": "string"},
+          "state": {"enum": ["DRAFT","PLANNED","BRIEF_READY","LAYOUT_READY","PROMPT_READY","GENERATED","COMPOSED","QA_FAILED","REVISED","APPROVED","SUPERSEDED"]}
+        },
+        "additionalProperties": true
+      }
+    },
+    "platform": {"type": "string","minLength": 1}
+  },
+  "additionalProperties": true
+}
