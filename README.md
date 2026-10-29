@@ -1,11 +1,12 @@
 # AI Skills
 
-两套用于视觉内容制作的实用 AI Skill：图文封面、英语场景闪卡。每套技能放在独立目录，附使用说明、参考素材和示例图片，可以按需单独使用。
+三套用于视觉内容与网页制作的实用 AI Skill：图文封面、英语场景闪卡、网站还原。每套技能放在独立目录，附使用说明和示例图片或流程示意，可以按需单独使用。
 
 | Skill | 用途 | 入口 |
 | --- | --- | --- |
 | 猴子 AI 笔记风格图文 | 暖白网格、粗黑标题、荧光高亮与漫画插画，用于项目封面、信息图、流程卡片 | [介绍与示例](monkey-ai-notes-imagegen/README.md) · [SKILL.md](monkey-ai-notes-imagegen/SKILL.md) |
 | 英语场景闪卡 | 把教材或自建词表组织成场景插画，独立生成准确的词汇、音标、释义和学习内容 | [介绍与示例](english-scene-flashcards/README.md) · [SKILL.md](english-scene-flashcards/SKILL.md) |
+| 网站还原 | 观察真实网站，拆解素材、排版和交互，还原成可运行的本地代码，并同状态对比 | [介绍与流程](clone-website/README.md) · [SKILL.md](clone-website/SKILL.md) |
 
 ## 看看效果
 
@@ -26,6 +27,12 @@
 
 ## 开始使用
 
+### 网站还原流程
+
+![网站还原工作流程](clone-website/assets/workflow.svg)
+
+流程示意，不是实际网站的克隆效果。详见 [Clone Website](clone-website/README.md)。
+
 ```bash
 git clone https://github.com/JackChen1220/AI-skills.git
 cd AI-skills
@@ -39,6 +46,8 @@ cd AI-skills
 使用 $monkey-ai-notes-imagegen，主题是“把零散资料变成可用知识”，制作一张漫画封面。
 
 使用 $english-scene-flashcards，把我提供的词表做成适合学习者年龄的场景闪卡，保留原始英文、音标和释义。
+
+使用 $clone-website，先拆解我提供的网站，再还原成可编辑的本地页面，对比桌面、手机和主要交互状态。
 ```
 
 ## 仓库结构
@@ -46,7 +55,8 @@ cd AI-skills
 ```text
 AI-skills/
 ├── monkey-ai-notes-imagegen/
-└── english-scene-flashcards/
+├── english-scene-flashcards/
+└── clone-website/
 ```
 
 每套技能的依赖和检查方法见各自说明。图像生成需要运行环境提供相应能力，本仓库不捆绑个人账号、API 服务或密钥。
